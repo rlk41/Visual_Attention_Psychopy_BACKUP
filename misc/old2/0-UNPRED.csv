@@ -1,0 +1,6 @@
+,delay_time,stimImage_i,stimImage,responseImage1,responseImage1_i,responseImage1_pos,responseImage1_pos_ind,responseImage1_location,responseImage1_location_i,responseImage2,responseImage2_i,responseImage2_pos,responseImage2_pos_ind,responseImage2_location,responseImage2_location_i,responseImage3,responseImage3_i,responseImage3_pos,responseImage3_pos_ind,responseImage3_location,responseImage3_location_i
+0,0.6,1,images/picture_2.png,images/picture_1.png,0,"(0.25, 0.25)",3,topright,0,images/picture_2.png,1,"(-0.25, -0.25)",1,bottomright,1,images/picture_3.png,2,"(-0.25, 0.25)",2,topleft,3
+1,0.7,2,images/picture_3.png,images/picture_1.png,2,"(-0.25, -0.25)",2,bottomleft,1,images/picture_2.png,0,"(0.25, 0.25)",1,bottomright,2,images/picture_3.png,1,"(0.25, -0.25)",0,topleft,3
+2,0.8,2,images/picture_1.png,images/picture_3.png,2,"(-0.25, 0.25)",2,bottomright,3,images/picture_1.png,1,"(0.25, 0.25)",3,topright,2,images/picture_2.png,0,"(-0.25, -0.25)",1,bottomleft,0
+3,1.0,1,images/picture_1.png,images/picture_2.png,0,"(0.25, -0.25)",2,bottomright,1,images/picture_3.png,2,"(0.25, 0.25)",0,bottomleft,0,images/picture_1.png,1,"(-0.25, -0.25)",3,topright,2
+4,0.5,1,images/picture_1.png,images/picture_3.png,1,"(-0.25, -0.25)",3,topright,3,images/picture_2.png,0,"(0.25, 0.25)",2,topleft,2,images/picture_1.png,2,"(-0.25, 0.25)",0,bottomleft,0

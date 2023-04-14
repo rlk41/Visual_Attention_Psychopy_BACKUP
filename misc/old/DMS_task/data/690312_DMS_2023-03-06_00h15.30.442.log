@@ -1,0 +1,86 @@
+0.7995 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.0234 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1080]. Using actual size
+8.6297 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8ac2494fa0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f8a92b06af0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.6298 	EXP 	window1: mouseVisible = True
+8.6305 	EXP 	window1: mouseVisible = False
+8.6305 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.6305 	EXP 	window1: recordFrameIntervals = False
+8.7956 	EXP 	window1: recordFrameIntervals = True
+8.9790 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+8.9790 	EXP 	window1: recordFrameIntervals = False
+13.4521 	EXP 	Created Fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.8290 	EXP 	Created sample = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='images/picture_2.png', interpolate=True, mask=None, maskParams=None, name='sample', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+13.8302 	EXP 	Created Delay = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Delay', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.1844 	EXP 	Created Response_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/picture_2.png', interpolate=True, mask=None, maskParams=None, name='Response_1', opacity=1.0, ori=0.0, pos=array([1., 1.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.5485 	EXP 	Created Response_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='images/picture_2.png', interpolate=True, mask=None, maskParams=None, name='Response_2', opacity=1.0, ori=0.0, pos=array([ 1., -1.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.9025 	EXP 	Created Response_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='images/picture_2.png', interpolate=True, mask=None, maskParams=None, name='Response_3', opacity=1.0, ori=0.0, pos=array([-1., -1.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.9033 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+14.9039 	EXP 	New trial (rep=0, index=0): {'delay_time': 0.5, 'stimImage_i': 0, 'stimImage': 'images/picture_1.png', 'responseImage1': 'images/picture_1.png', 'responseImage1_i': 0, 'responseImage1_pos': (1, -1), 'responseImage1_pos_ind': 0, 'responseImage1_location': 'bottomleft', 'responseImage1_location_i': 0, 'responseImage2': 'images/picture_3.png', 'responseImage2_i': 2, 'responseImage2_pos': (-1, -1), 'responseImage2_pos_ind': 1, 'responseImage2_location': 'bottomright', 'responseImage2_location_i': 1, 'responseImage3': 'images/picture_2.png', 'responseImage3_i': 1, 'responseImage3_pos': (-1, 1), 'responseImage3_pos_ind': 3, 'responseImage3_location': 'topleft', 'responseImage3_location_i': 2}
+14.9583 	EXP 	Fixation: autoDraw = True
+14.9583 	EXP 	sample: image = 'images/picture_1.png'
+14.9583 	EXP 	sample: autoDraw = True
+15.9623 	EXP 	Fixation: autoDraw = False
+15.9623 	EXP 	sample: autoDraw = False
+16.9125 	EXP 	Delay: autoDraw = True
+18.0565 	EXP 	Delay: autoDraw = False
+18.0565 	EXP 	Response_1: image = 'images/picture_1.png'
+18.0565 	EXP 	Response_1: autoDraw = True
+18.0565 	EXP 	Response_2: image = 'images/picture_3.png'
+18.0565 	EXP 	Response_2: autoDraw = True
+18.0565 	EXP 	Response_3: image = 'images/picture_2.png'
+18.0565 	EXP 	Response_3: autoDraw = True
+18.9128 	EXP 	New trial (rep=1, index=0): {'delay_time': 0.5, 'stimImage_i': 0, 'stimImage': 'images/picture_1.png', 'responseImage1': 'images/picture_1.png', 'responseImage1_i': 0, 'responseImage1_pos': (1, -1), 'responseImage1_pos_ind': 0, 'responseImage1_location': 'bottomleft', 'responseImage1_location_i': 0, 'responseImage2': 'images/picture_3.png', 'responseImage2_i': 2, 'responseImage2_pos': (-1, -1), 'responseImage2_pos_ind': 1, 'responseImage2_location': 'bottomright', 'responseImage2_location_i': 1, 'responseImage3': 'images/picture_2.png', 'responseImage3_i': 1, 'responseImage3_pos': (-1, 1), 'responseImage3_pos_ind': 3, 'responseImage3_location': 'topleft', 'responseImage3_location_i': 2}
+18.9653 	EXP 	Fixation: autoDraw = False
+18.9653 	EXP 	sample: autoDraw = False
+18.9653 	EXP 	Delay: autoDraw = False
+18.9653 	EXP 	Response_1: autoDraw = False
+18.9653 	EXP 	Response_2: autoDraw = False
+18.9653 	EXP 	Response_3: autoDraw = False
+18.9653 	EXP 	Fixation: autoDraw = True
+18.9653 	EXP 	sample: image = 'images/picture_1.png'
+18.9653 	EXP 	sample: autoDraw = True
+19.9788 	EXP 	Fixation: autoDraw = False
+19.9788 	EXP 	sample: autoDraw = False
+20.9124 	EXP 	Delay: autoDraw = True
+22.0496 	EXP 	Delay: autoDraw = False
+22.0496 	EXP 	Response_1: image = 'images/picture_1.png'
+22.0496 	EXP 	Response_1: autoDraw = True
+22.0496 	EXP 	Response_2: image = 'images/picture_3.png'
+22.0496 	EXP 	Response_2: autoDraw = True
+22.0496 	EXP 	Response_3: image = 'images/picture_2.png'
+22.0496 	EXP 	Response_3: autoDraw = True
+22.9128 	EXP 	New trial (rep=2, index=0): {'delay_time': 0.5, 'stimImage_i': 0, 'stimImage': 'images/picture_1.png', 'responseImage1': 'images/picture_1.png', 'responseImage1_i': 0, 'responseImage1_pos': (1, -1), 'responseImage1_pos_ind': 0, 'responseImage1_location': 'bottomleft', 'responseImage1_location_i': 0, 'responseImage2': 'images/picture_3.png', 'responseImage2_i': 2, 'responseImage2_pos': (-1, -1), 'responseImage2_pos_ind': 1, 'responseImage2_location': 'bottomright', 'responseImage2_location_i': 1, 'responseImage3': 'images/picture_2.png', 'responseImage3_i': 1, 'responseImage3_pos': (-1, 1), 'responseImage3_pos_ind': 3, 'responseImage3_location': 'topleft', 'responseImage3_location_i': 2}
+22.9589 	EXP 	Fixation: autoDraw = False
+22.9589 	EXP 	sample: autoDraw = False
+22.9589 	EXP 	Delay: autoDraw = False
+22.9589 	EXP 	Response_1: autoDraw = False
+22.9589 	EXP 	Response_2: autoDraw = False
+22.9589 	EXP 	Response_3: autoDraw = False
+22.9589 	EXP 	Fixation: autoDraw = True
+22.9589 	EXP 	sample: image = 'images/picture_1.png'
+22.9589 	EXP 	sample: autoDraw = True
+23.9623 	EXP 	Fixation: autoDraw = False
+23.9623 	EXP 	sample: autoDraw = False
+24.9123 	EXP 	Delay: autoDraw = True
+26.0427 	EXP 	Delay: autoDraw = False
+26.0427 	EXP 	Response_1: image = 'images/picture_1.png'
+26.0427 	EXP 	Response_1: autoDraw = True
+26.0427 	EXP 	Response_2: image = 'images/picture_3.png'
+26.0427 	EXP 	Response_2: autoDraw = True
+26.0427 	EXP 	Response_3: image = 'images/picture_2.png'
+26.0427 	EXP 	Response_3: autoDraw = True
+26.9128 	EXP 	New trial (rep=3, index=0): {'delay_time': 0.5, 'stimImage_i': 0, 'stimImage': 'images/picture_1.png', 'responseImage1': 'images/picture_1.png', 'responseImage1_i': 0, 'responseImage1_pos': (1, -1), 'responseImage1_pos_ind': 0, 'responseImage1_location': 'bottomleft', 'responseImage1_location_i': 0, 'responseImage2': 'images/picture_3.png', 'responseImage2_i': 2, 'responseImage2_pos': (-1, -1), 'responseImage2_pos_ind': 1, 'responseImage2_location': 'bottomright', 'responseImage2_location_i': 1, 'responseImage3': 'images/picture_2.png', 'responseImage3_i': 1, 'responseImage3_pos': (-1, 1), 'responseImage3_pos_ind': 3, 'responseImage3_location': 'topleft', 'responseImage3_location_i': 2}
+26.9585 	EXP 	Fixation: autoDraw = False
+26.9585 	EXP 	sample: autoDraw = False
+26.9585 	EXP 	Delay: autoDraw = False
+26.9585 	EXP 	Response_1: autoDraw = False
+26.9585 	EXP 	Response_2: autoDraw = False
+26.9585 	EXP 	Response_3: autoDraw = False
+26.9585 	EXP 	Fixation: autoDraw = True
+26.9585 	EXP 	sample: image = 'images/picture_1.png'
+26.9585 	EXP 	sample: autoDraw = True
+27.9624 	EXP 	Fixation: autoDraw = False
+27.9624 	EXP 	sample: autoDraw = False
+28.9123 	EXP 	Delay: autoDraw = True
+28.9177 	DATA 	Keypress: escape
+29.0157 	EXP 	window1: mouseVisible = True

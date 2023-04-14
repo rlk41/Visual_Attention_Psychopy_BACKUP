@@ -1,0 +1,45 @@
+0.8959 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.3192 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f925c0f9fd0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f92223bb970>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.3194 	EXP 	window1: mouseVisible = True
+13.3208 	EXP 	window1: mouseVisible = False
+13.3208 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+13.3209 	EXP 	window1: recordFrameIntervals = False
+13.4852 	EXP 	window1: recordFrameIntervals = True
+13.6700 	EXP 	Screen (0) actual frame rate measured at 59.61Hz
+13.6701 	EXP 	window1: recordFrameIntervals = False
+15.8749 	EXP 	Created Fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.8816 	EXP 	Created sample = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='sample', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.8826 	EXP 	Created Delay = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Delay', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.8835 	EXP 	Created Response_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='Response_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.8843 	EXP 	Created Response_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='Response_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.8851 	EXP 	Created Response_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='Response_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.8868 	EXP 	Created sequence: random, trialTypes=1, nReps=50, seed=None
+15.8871 	EXP 	New trial (rep=0, index=0): None
+15.9331 	EXP 	Fixation: autoDraw = True
+15.9331 	EXP 	sample: autoDraw = True
+16.9359 	EXP 	Fixation: autoDraw = False
+16.9359 	EXP 	sample: autoDraw = False
+17.8859 	EXP 	Delay: autoDraw = True
+18.8863 	EXP 	Delay: autoDraw = False
+18.8863 	EXP 	Response_1: autoDraw = True
+18.8863 	EXP 	Response_2: autoDraw = True
+18.8863 	EXP 	Response_3: autoDraw = True
+19.8709 	EXP 	New trial (rep=1, index=0): None
+19.8859 	EXP 	Response_1: autoDraw = False
+19.8859 	EXP 	Response_2: autoDraw = False
+19.8859 	EXP 	Response_3: autoDraw = False
+19.8859 	EXP 	Fixation: autoDraw = False
+19.8859 	EXP 	sample: autoDraw = False
+19.8859 	EXP 	Delay: autoDraw = False
+19.8859 	EXP 	Response_1: autoDraw = False
+19.8859 	EXP 	Response_2: autoDraw = False
+19.8859 	EXP 	Response_3: autoDraw = False
+19.8859 	EXP 	Fixation: autoDraw = True
+19.8859 	EXP 	sample: autoDraw = True
+20.8862 	EXP 	Fixation: autoDraw = False
+20.8862 	EXP 	sample: autoDraw = False
+21.4704 	DATA 	Mouse: Left button down, pos=(445,569)
+21.5211 	DATA 	Mouse:  Left button up, pos=(445,569)
+21.8865 	EXP 	Delay: autoDraw = True
+22.2554 	DATA 	Keypress: escape
+22.3680 	EXP 	window1: mouseVisible = True
